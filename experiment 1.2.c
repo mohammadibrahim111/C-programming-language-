@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/* Mohammad Ibrahim
+/* Mohammad Ibrahim 
 First Year (Computer)
 UIN- 251P111 */
 
@@ -11,7 +11,7 @@ int main()
     printf("Enter marks for Physics: ");
     scanf("%f", &phy);
 
-    printf("Enter marks for Chemistry: ");
+    printf("Enter sarks for Chemistry: ");
     scanf("%f", &chem);
 
     printf("Enter marks for Mathematics: ");
@@ -19,4 +19,10 @@ int main()
 
     avg = (phy + chem + math) / 3;
 
-    printf("\n
+    printf("\nAverage Marks: %2f\n", avg);
+
+    (avg >= 50) ? printf("You are Eligible")
+                : printf("You are Not Eligible");
+
+    return 0;
+}
